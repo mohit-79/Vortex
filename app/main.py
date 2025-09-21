@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from backend import visualization as viz
 from backend.agent import run_agent
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 st.set_page_config(page_title="Transcript AI Agent", layout="wide")
 
