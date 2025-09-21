@@ -1,0 +1,10 @@
+# Python
+pycache/
+*.py[cod]
+venv/
+
+# Streamlit
+.streamlit/
+
+# Env
+.env
