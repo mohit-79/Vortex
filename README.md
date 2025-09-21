@@ -28,14 +28,14 @@ It allows you to upload a meeting transcript (JSON format) and explore insights 
 
 The system is designed as a *hybrid LLM + deterministic pipeline model*:
 
-* ✅ *Deterministic Path* → For common meeting insights, mapped to pre-coded visualizations.
-* ⚡ *Generative Path* → For custom or unusual queries, LLM generates code dynamically.
+* *Deterministic Path* → For common meeting insights, mapped to pre-coded visualizations.
+* *Generative Path* → For custom or unusual queries, LLM generates code dynamically.
 
 This ensures *reliability* for standard tasks but also *flexibility* for exploratory analysis.
 
 ---
 
-## 🚀 Features
+## Features
 
 * Upload meeting transcript JSON (local MVP, no cloud storage).
 * Preprocessing pipeline for:
@@ -64,7 +64,7 @@ This ensures *reliability* for standard tasks but also *flexibility* for explora
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 
 transcript-ai-agent/
