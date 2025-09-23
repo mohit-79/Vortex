@@ -1,5 +1,7 @@
 import streamlit as st
 import json
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from backend.pipeline import parse_transcript, compute_stats, enrich_transcript
 import matplotlib.pyplot as plt
 import pandas as pd
