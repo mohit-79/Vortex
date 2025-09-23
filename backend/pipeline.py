@@ -8,9 +8,6 @@ import nltk
 from nltk.corpus import stopwords
 from spacy.lang.en import English
 
-nltk.download('stopwords')
-spacy.cli.download("en_core_web_sm")
-
 nlp=spacy.load("en_core_web_sm")
 
 def extract_relations_spacy(text):
