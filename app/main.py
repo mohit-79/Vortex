@@ -9,9 +9,9 @@ from backend import visualization as viz
 from backend.agent import run_agent
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-st.set_page_config(page_title="Transcript AI Agent", layout="wide")
+st.set_page_config(page_title="TransViz", layout="wide")
 
-st.title("📝 Transcript AI Agent (MVP)")
+st.title("TransViz")
 st.write("Upload a meeting transcript JSON and analyze it!")
 
 st.sidebar.header("Upload Transcript")
